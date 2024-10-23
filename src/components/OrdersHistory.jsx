@@ -1,5 +1,6 @@
 import React from 'react'
 import SecondryBtns from './SecondryBtns'
+import OrderTable from './OrderTable'
 
 const OrdersHistory = () => {
     return (
@@ -33,6 +34,7 @@ const OrdersHistory = () => {
 
                 </div>
             </div>
+            <OrderTable />
         </div>
     )
 }
