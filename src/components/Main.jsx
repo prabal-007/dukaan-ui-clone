@@ -1,4 +1,3 @@
-import React from 'react'
 import RevenueCard from './RevenueCard'
 import Topbar from './Topbar'
 import OrdersHistory from './OrdersHistory'
@@ -27,6 +26,10 @@ const Main = () => {
                     <button className='bg-blue-400 py-1 px-2 text-gray-100 rounded-2xl text-xs/[8px]'>Refundss (6)</button>
                 </div>
                 <OrdersHistory />
+            </div>
+            <div className='flex flex-col justify-center items-center text-gray-400 md:text-sm text-xs p-2'>
+                <p>Made By <a href="https://imstark.xyz/" target='_blank' className='text-blue-400'>Prabal Gupta (Stark)</a>, inspired by <a href="https://x.com/subhashchy/status/1744308069751025894" target='_blank' className='text-blue-400'>Dukaan App UI</a></p>
+                <a href="https://github.com/prabal-007/dukaan-ui-clone/tree/master">Get the source code</a>
             </div>
         </div>
     )

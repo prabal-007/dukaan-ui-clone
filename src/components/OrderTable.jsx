@@ -28,7 +28,7 @@ const OrderTable = () => {
     ];
 
     const statusIcon = (status) => {
-        switch (status) {
+        switch (status) {   
             case 'Successful':
                 return <span className="inline-block w-3 h-3 bg-green-500 rounded-full mr-2"></span>;
             case 'Processing':
@@ -42,7 +42,6 @@ const OrderTable = () => {
 
     return (
         <div className="overflow-x-auto">
-            {/* <table className="min-w-full table-auto border-collapse border border-gray-300"> */}
             <table className="w-full text-sm text-left rtl:text-right text-gray-600">
                 <thead className="text-xm w-full font-medium rounded uppercase text-gray-800">
                     <tr>
